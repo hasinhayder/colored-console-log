@@ -1,5 +1,5 @@
 let log = {
-    typography:'font-size:14px; padding:5px;',
+    typography:'font-size: 14px; padding: 5px;',
     info:(msg)=>{
         console.log(`%c${msg}`,`background: #FFDC00; color: #000000; ${log.typography}`)
     },
@@ -10,6 +10,6 @@ let log = {
         console.log(`%c${msg}`,`background: #BADA55; color: #FFFFFF; ${log.typography}`)
     },
     error:(msg)=>{
-        console.log(`%c${msg}`,`background: #FF0000; color: #000000; ${log.typography}`)
+        console.log(`%c${msg}`,`background: #FF0000; color: #FFFFFF; ${log.typography}`)
     }
 }
